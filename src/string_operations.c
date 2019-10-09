@@ -4,7 +4,7 @@ size_t my_strlen(char *s)
 {
 	char *p = s;
 	while (*p) ++p;
-	return (p - s);
+	return (p - s + 1);
 }
 char *my_strcpy(char *t, char *s)
 {
