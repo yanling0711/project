@@ -17,5 +17,4 @@ int main(void) {
 		printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
 	
 	return 0;
-
 }
