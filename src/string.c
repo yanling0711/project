@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*20191009*/
+/*20191009_add comment*/
 size_t my_strlen(char *s)
 {
 	char *p = s;
