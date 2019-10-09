@@ -4,6 +4,10 @@ size_t my_strlen(char *s)
 
 int my_strlen(char *s)
 
+size_t my_strlen(char *s)
+
+int my_strlen(char *s)
+
 {
 	char *p = s;
 	while (*p) ++p;
@@ -20,4 +24,5 @@ int main(void) {
 		printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
 	
 	return 0;
+
 }
